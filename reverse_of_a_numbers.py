@@ -1,5 +1,2 @@
-n=int(input())
-b=str(n)
-a=b[::-1]
-c=int(a)
-print(c)
+a=input()
+print((a)[::-1])
