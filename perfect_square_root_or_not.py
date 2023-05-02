@@ -1,7 +1,6 @@
-n=int(input())
-for i in range(n):
-    if i*i==n:
-        print("True")
-        break
-else:
-    print("False")
+from math import sqrt
+def solve(a):
+   sq = int(sqrt(a))
+   return (sq*sq) == a
+a=int(input())
+print (solve(a))
