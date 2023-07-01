@@ -1,11 +1,11 @@
 a=int(input())
-l=list(map(int,input().split()))
-b=[]
-d=[]
+b=list(map(int,input().split()))
+c=[]
+z=[]
 for i in range(1,10):
-    c=i*i
-    b.append(c)
-for i in l:
-    if i in b:
-        d.append(i)
-print(sum(d))
+    d=i*i
+    c.append(d)
+for i in b:
+    if i in c:
+        z.append(i)
+print(sum(z))
